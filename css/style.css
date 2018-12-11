@@ -302,7 +302,9 @@ a:hover,a:focus {
 .hovereffect .photo-4,
 .hovereffect .photo-5,
 .hovereffect .photo-6,
-.hovereffect .photo-7{
+.hovereffect .photo-7,
+.hovereffect .photo-8,
+.hovereffect .photo-9{
   display: block;
   position: relative;
   max-width: none;
@@ -321,14 +323,16 @@ a:hover,a:focus {
 .hovereffect:hover .photo-4,
 .hovereffect:hover .photo-5,
 .hovereffect:hover .photo-6,
-.hovereffect:hover .photo-7{
+.hovereffect:hover .photo-7,
+.hovereffect:hover .photo-8,
+.hovereffect:hover .photo-9{
   opacity: 0.4;
   filter: alpha(opacity=40);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
-.photo-1,.photo-2,.photo-3,.photo-4,.photo-5,.photo-6,.photo-7{
+.photo-1,.photo-2,.photo-3,.photo-4,.photo-5,.photo-6,.photo-7, .photo-8, .photo-9{
 	background-size:cover;
 	height:300px;
 	width:300px;
@@ -344,6 +348,8 @@ a:hover,a:focus {
 .photo-5 {background-image: url('../img/5.jpg');}
 .photo-6 {background-image: url('../img/6.jpg');}
 .photo-7 {background-image: url('../img/7.jpg');}
+.photo-8 {background-image: url('../img/8.jpg');}
+.photo-9 {background-image: url('../img/9.jpg');}
 
 /* Modal Box */
 
